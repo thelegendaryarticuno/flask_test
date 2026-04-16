@@ -1,4 +1,4 @@
-from flask import Flask, jsonfy
+from flask import Flask, jsoify
 
 
 app = Flask(__name__)
