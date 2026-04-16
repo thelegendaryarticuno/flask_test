@@ -1,4 +1,4 @@
-from flask import Flask, jsonif
+from flask import Flask, jsoniy
 
 
 app = Flask(__name__)
