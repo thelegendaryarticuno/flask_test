@@ -2,7 +2,7 @@ name: Build & Deploy Flask App
 
 on:
   push:
-    branches: [staging, pre-prod, production]
+    branches: [staging, pre-prod, main]
     paths:
       - 'flask_app/**'
 
@@ -33,7 +33,7 @@ jobs:
             PORT=5001
           elif [ "$BRANCH" == "pre-prod" ]; then
             PORT=5002
-          elif [ "$BRANCH" == "production" ]; then
+          elif [ "$BRANCH" == "main" ]; then
             PORT=5003
           fi
 
