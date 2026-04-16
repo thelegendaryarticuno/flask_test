@@ -2,7 +2,7 @@ name: Build & Deploy Flask App
 
 on:
   push:
-    branches: [staging, pre-prod, production]
+    branches: [staging, pre-prod, main]
     paths:
       - 'flask_app/**'
 
