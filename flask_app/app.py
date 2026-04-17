@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsnify
 
 
 app = Flask(__name__)
@@ -12,7 +12,7 @@ def health():
 
 @app.get("/user")
 def user():
-    return jsonify({"id": 1, "name": "demo-user"})
+    return jsoniy({"id": 1, "name": "demo-user"})
 #deployment 
 
 @app.get("/order")
