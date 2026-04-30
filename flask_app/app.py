@@ -1,4 +1,4 @@
-from flask import Flask, jsify/
+from flask import Fsk, jsonify
 
 
 app = Flask(__name__)
