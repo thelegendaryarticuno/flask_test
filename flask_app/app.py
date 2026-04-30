@@ -1,4 +1,4 @@
-from flask import Flask, jsoify
+from flask import Flask, jsoiy
 
 
 app = Flask(__name__)
